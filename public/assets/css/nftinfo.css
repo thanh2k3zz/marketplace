@@ -1,0 +1,113 @@
+.info {
+    margin-top: 50px;
+    padding: 24px 36px;
+    border-radius: 18px;
+    background-color: #343444;
+    /* max-width: 800px; */
+}
+
+
+
+.info h1 {
+    color: #e6e5e8;
+    font-size: 28px;
+}
+
+.info table tr {
+    border-bottom: 1px solid #53565d;
+}
+
+.info table tr td {
+    color: #e6e5e8;
+}
+
+.nft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
+
+.history > p {
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 500;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+.block-history {
+    margin-top: 20px;
+    padding: 24px 36px;
+    border-radius: 18px;
+    background-color: #343444;
+    max-width: 800px;
+
+}
+
+.block-history p, input, button {
+    color: #e6e5e8;
+}
+
+.history h1 {
+    color: #e6e5e8;
+    font-size: 38px;
+}
+
+.block-history input {
+    background-color: #343444;
+    width: 100%;
+}
+
+.info-product button {
+    margin: 12px;
+}
+
+.block-history input {
+    color: #1f87ff;
+
+}
+
+
+/* Fix last owner*/
+
+.info table tr td p {
+    width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* Fix hien thi nft */
+
+body > section > div > div > div.col-md-4.nft > video {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+body > section > div:nth-child(2) > div > div.col-md-4.nft > iframe {
+    background-color: #ffffff;
+}
+
+
+
